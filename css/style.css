@@ -1,0 +1,138 @@
+/* &display=swap&subset=cyrillic-ext */
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../fonts/AmaticSC-Bold.woff2') format('woff2'),
+        url('../fonts/AmaticSC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+
+/* ------------------------------ */
+
+h1 {display: none;
+}
+
+.first, .second, .third, .fourth{
+	display: block;
+	color: rgb(224, 228, 18);
+	background-color: rgb(26, 172, 148);
+	margin: 30px;
+	padding: 10px 15px 20px 25px;
+	height: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+	
+.div_first, .div_second,.div_third {
+	display:inline-block;
+	color: rgb(53, 228, 18);
+	background-color: rgb(3, 36, 30);
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+	overflow: hidden;
+	margin: 0px 40px 20px 40px;
+}
+
+a {
+	display: inline-block;
+	color: rgb(219, 13, 82);
+	background-color: rgb(191, 221, 20);
+	margin: 30px 50px;
+	text-transform: lowercase;
+}
+
+.p_first, .p_second, .p_third, .p_fourth {
+	display: inline-block;
+	color: rgb(224, 228, 18);
+	background-color: rgb(26, 172, 148);
+	max-width: 100px;
+	padding: 10px;
+	margin: 30px;
+	font-family: 'Amatic SC';
+	font-size:20px;
+}
+
+.div_fourth {
+	color: rgb(224, 228, 18);
+	background-color: rgb(26, 172, 148);
+	margin: 30px;
+    padding: 30px;
+}
+
+ .div_fifth{
+	color: rgb(224, 228, 18);
+	background-color: rgb(58, 26, 172);
+	margin: -80px 30px 30px 30px;
+	padding: 30px;
+ }
+
+.scroll
+    {display: inline-block;
+	background-color: rgb(167, 56, 152);
+	max-height: 200px;
+	max-width: 600px;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	font-size: 20px;
+	overflow: scroll;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+img{
+	display: block;
+	margin: 50px;
+}
